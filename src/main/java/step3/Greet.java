@@ -4,7 +4,6 @@ import lombok.AllArgsConstructor;
 
 import java.time.LocalDateTime;
 
-@AllArgsConstructor
 public class Greet {
 
     public static String greet(String first, String last, String gender, LocalDateTime now) {
